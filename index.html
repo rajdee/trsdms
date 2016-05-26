@@ -3,20 +3,24 @@
   <head>
       <meta charset="utf-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-      <title>TurtlesDreams - online resource about ZX Spectrum demoscene</title>
-      <meta property="og:title" content="TurtlesDreams - online resource about ZX Spectrum demoscene">
+      <title>TurtleDreams - online resource about ZX Spectrum demoscene</title>
+      <meta property="og:title" content="TurtleDreams - online resource about ZX Spectrum demoscene">
       <meta property="og:type" content="website">
       <meta property="og:url" content="http://rajdee.github.io/trsdms/index.html">
-      <meta property="og:image" content="https://facebook.github.io/react/img/logo_og.png">
-      <meta property="og:description" content="TurtlesDreams - online resource about ZX Spectrum demoscene">
-      <link rel="shortcut icon" href="favicon.ico">
+      <meta property="og:image" content="favicon.ico">
+      <meta property="og:description" content="TurtleDreams - online resource about ZX Spectrum demoscene">
+      <link rel="shortcut icon" type="image/png" href="/assets/favicon.ico" />
       <style>body {background-color: #785642;opacity: 0;transition: opacity 0.5s ease-out 0s;}</style>
   </head>
   <body>
-    <a class="logo" href="/"><h1 class="main-title">t<i>.</i>u<i>.</i>r<i>.</i>t<i>.</i>l<i>.</i>e<i>.</i>s d<i>.</i>r<i>.</i>e<i>.</i>a<i>.</i>m<i>.</i>s</h1></a>
+    <a class="logo" href="/"><h1 class="main-title">t<i>.</i>u<i>.</i>r<i>.</i>t<i>.</i>l<i>.</i>e<i>.</i> d<i>.</i>r<i>.</i>e<i>.</i>a<i>.</i>m<i>.</i>s</h1></a>
     <div id='root'>
     </div>
-    <script src="static/vendor.js"></script>
+    <div class="overlay component_hidden"></div>
+    <div class="spinner-container component_hidden">
+      <span class="spinner__message">Please wait,<i>the universe</i>is created...</span><object type="image/svg+xml" data="/assets/hourglass.min.svg" id="spinner">Your browser does not support SVGs</object>
+    </div>
+    <script src="https://cdn.firebase.com/js/client/2.4.2/firebase.js"></script>
     <script src="static/bundle.js"></script>
   </body>
 </html>
