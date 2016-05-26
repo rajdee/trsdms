@@ -1,6 +1,5 @@
 node_modules
 dist
-assets
 src
 .tmp
 /app/vendor/
